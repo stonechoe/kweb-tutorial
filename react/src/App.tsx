@@ -24,7 +24,7 @@ function App() {
   return (
     <main style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'start', alignItems: 'start' }}>
       <h1>
-        TODO List 실습
+        todo List 실습
       </h1>
       <div className="card">
         <input className='' type="text" placeholder="Type something..." value={content} onChange={e => {
